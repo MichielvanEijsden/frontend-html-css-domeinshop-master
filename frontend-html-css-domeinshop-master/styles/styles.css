@@ -1,0 +1,77 @@
+/*////////////////////////////////////////////////////////////////////////
+Table of Contents:
+    1. Global Styles
+    2. Typografie
+    3. Areas
+        3.1 Header
+        3.2 Testimonial
+        3.3 Support
+        3.4 Faq
+        3.5 Footer
+////////////////////////////////////////////////////////////////////////*/
+
+/*////////////////////////
+    1. Global Styles
+////////////////////////*/
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@300;400;700&family=Manrope:wght@300;400;600;700&family=Playfair+Display:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+* {
+    margin: 0 0;
+    box-sizing: border-box;
+}
+
+/*grijs #899CA0 en donkergroen #1C2B32*/
+
+/*////////////////////////
+    2. Typography
+////////////////////////*/
+body {
+    font-family: 'Poppins', sans-serif;
+
+}
+h1{
+    text-align: center;
+    font-weight: 600;
+    font-size: 107px;
+}
+
+/*////////////////////////
+    3. Areas
+////////////////////////*/
+
+/*///////////// 3.1 Header /////////////*/
+header{
+    background-image:url("../assets/images/mountains.jpg");
+    width: 1920px;
+    height: 1200px;
+    background-position: top, center;
+    background-repeat: no-repeat;
+    margin: auto;
+    position: relative;
+}
+
+.center-text {
+    position: absolute;
+    max-width: 1000px;
+    top: 25%;
+    left: 32.5%;
+    color: #1C2B32;
+    text-align: center;
+
+
+}
+
+#domain-input,button {
+    border-radius: 37px;
+}
+
+/*///////////// 3.2 Testimonial /////////////*/
+
+
+/*///////////// 3.3 Support /////////////*/
+
+
+/*///////////// 3.4 Faq /////////////*/
+
+
+/*///////////// 3.5 Footer /////////////*/
