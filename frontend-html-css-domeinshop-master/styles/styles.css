@@ -21,10 +21,12 @@ Table of Contents:
     box-sizing: border-box;
     margin: 0;
 }
+
 body {
     font-family: 'Poppins', sans-serif;
     color: #1C2B32;
 }
+
 main {
 
     width: 50%;
@@ -33,24 +35,22 @@ main {
 
 }
 
-footer{
-    max-width: 1000px;
-    width: 50%;
-    margin: auto;
-}
+
 /*////////////////////////
     2. Typography
 ////////////////////////*/
 
-h1{
+h1 {
     font-weight: 700;
     font-size: 120px;
 }
+
 h2 {
     font-size: 32px;
     font-weight: 700;
     margin: 60px 0;
 }
+
 h1, h2 {
     text-align: center;
 }
@@ -58,7 +58,8 @@ h1, h2 {
 input, button {
     font-family: inherit;
 }
-a, a:link,a:visited {
+
+a, a:link, a:visited {
     color: #899CA0;
     text-decoration: underline;
 }
@@ -68,8 +69,8 @@ a, a:link,a:visited {
 ////////////////////////*/
 
 /*///////////// 3.1 Header /////////////*/
-header{
-    background-image:url("../assets/images/mountains.jpg");
+header {
+    background-image: url("../assets/images/mountains.jpg");
     background-size: cover;
     background-position: top;
 
@@ -83,7 +84,12 @@ header{
     text-align: center;
 }
 
-.domain-input{
+header p {
+    padding: 20px;
+    color: #899CA0;
+}
+
+.domain-input {
     padding: 24px 32px;
     color: #1C2B32;
     background-color: transparent;
@@ -91,49 +97,106 @@ header{
     margin-top: 10px;
     margin-right: -4px;
     font-size: 15px;
-    border-radius:37px 0 0 37px;
+    border-radius: 37px 0 0 37px;
     outline: transparent;
 }
 
-.domain-input::placeholder{
+.domain-input::placeholder {
     color: #1C2B32;
 }
 
 .domain-button {
     padding: 24px 32px;
-    color: #899CA0;
+    color: white;
     background-color: #1C2B32;
     border: 2px solid #1C2B32;
-    margin-left:-4px;
+    margin-left: -4px;
     font-size: 15px;
-    border-radius:0 37px 37px 0;
+    border-radius: 0 37px 37px 0;
 }
 
 
 /*///////////// 3.2 Testimonial /////////////*/
-.quotes{
-    margin: 10px 10px 0 0;
-}
-.quote-a, .quote-b{
+.quote {
+    width: 1000px;
     font-size: 14px;
     border-radius: 10px;
-    padding: 30px;
-    margin: 30px;
+    padding: 20px 100px 50px 100px;
+    margin: 30px 50px 30px 0;
     box-shadow: 0 0 30px grey;
+    position: relative;
+}
+
+.quotes {
+    position: absolute;
+    display: inline-block;
+    margin: -10px 10px 0 0;
+    vertical-align: baseline;
+}
+
+.quote p {
+    margin: 50px 0 15px 50px
 }
 .f-quote{
-    text-align: left;
+
+    display: inline;
+    vertical-align: top;
+    margin-top: 20px;
+}
+.f-quote img{
+    vertical-align:middle;
+    border-radius: 50%;
+    margin: 10px 5px 10px 50px;
+    width: 44px;
+    height: auto;
+}
+.f-quote cite{
+    vertical-align: middle;
+    margin-left: 30px;
+
 }
 
 /*///////////// 3.3 Support /////////////*/
-.support-img{
+.support-img {
     width: 1000px;
     height: auto;
     border-radius: 10px;
 }
 
+.support p {
+    margin: 20px 0 20px 0;
+}
+
+.contact-button {
+    padding: 12px 20px;
+    color: white;
+    background-color: #1C2B32;
+    border: 2px solid #1C2B32;
+    font-size: 15px;
+    border-radius: 37px;
+}
 
 /*///////////// 3.4 Faq /////////////*/
-
-
+.faq {
+    margin: auto;
+}
+.d-faq{
+    cursor: pointer;
+    margin-top: 30px;
+}
+.d-faq p{
+    margin: 10px;
+    padding: 20px;
+    color: white;
+    background-color: #899CA0;
+    border-radius: 10px;
+}
 /*///////////// 3.5 Footer /////////////*/
+.footer{
+    color: white;
+    background-color: #1C2B32;
+    text-align: center;
+    padding: 30px;
+    margin-top: 90px;
+}
+
